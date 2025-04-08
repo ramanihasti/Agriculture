@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import AboutRow from "../components/About/AboutRow";
 
 function About() {
   return (
-    <div>About</div>
-  )
+    <div>
+      <AboutRow />
+    </div>
+  );
 }
 
-export default About
+export default About;

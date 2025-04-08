@@ -92,7 +92,7 @@ function PricingCart(props) {
         <h3 className="text-[25px] font-serif font-semibold text-[#3a5050]">{props.title}</h3>
 
         <div className={`bg-[#c4d5b1] h-[55px] w-[55px] p-2 rounded-full flex items-center justify-center ${props.activeCard ? "border-2 border-teal-800" : ""}`}>
-            <FontAwesomeIcon icon={props.icon} className="text-xl text-[#303030]"/>
+            <FontAwesomeIcon icon={props.icon}/>
         </div>
 
         <div className="font-thin">
